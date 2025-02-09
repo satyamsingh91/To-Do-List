@@ -1,0 +1,67 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Box Container */
+#box {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Input Field */
+#task {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Button */
+#add_task {
+    width: 100%;
+    padding: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#add_task:hover {
+    background-color: #45a049;
+}
+
+/* Task List */
+#lists {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+#lists li {
+    background-color: #f9f9f9;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+}
+
+#lists li button {
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    padding: 3px;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
